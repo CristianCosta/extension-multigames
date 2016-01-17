@@ -18,19 +18,19 @@ class Multigames {
 	///////////// INIT's
 	//////////////////////////////////////////////////////////////////////
 
-	public static function initGoogleSocialFeatures(enableCloudStorage:Bool) {
+	public static function initGoogleGameService(enableCloudStorage:Bool) {
 		#if (android && !amazon)
 			GooglePlayGames.init(enableCloudStorage);
 		#end
 	}
 
-	public static function initAmazonSocialFeatures(enableWhispersync:Bool) {
+	public static function initAmazonGameService(enableWhispersync:Bool) {
 		#if amazon
 			GameCircle.init(enableWhispersync);
 		#end
 	}
 
-	public static function initAppleSocialFeatures() {
+	public static function initAppleGameService() {
 		#if ios
 			GameCenter.authenticate();
 		#end
