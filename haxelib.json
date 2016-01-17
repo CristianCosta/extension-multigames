@@ -1,0 +1,10 @@
+{
+	"name": "extension-multiSocialFeatures",
+	"url": "https://github.com/CristianCosta/extension-multiSocialFeatures",
+	"license": "MIT",
+	"contributors":["CristianCosta","fbricker","singmajesty"],
+	"tags": ["social","features","lime","android","ios","amazon","games","openfl"],
+	"description": "OpenFL Social Features extension for Android, Kindle devices and iOS.",
+	"version": "1.0.0",
+	"releasenote": "Initial commit. Working!"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<haxelib name="extension-googleplaygames" if="android" unless="amazon" />
+	<haxelib name="extension-gamecircle" if="amazon" />
+	<haxelib name="extension-gamecenter" if="ios" />
+</extension>
