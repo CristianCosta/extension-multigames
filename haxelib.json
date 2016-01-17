@@ -1,10 +1,15 @@
 {
-	"name": "extension-multiSocialFeatures",
-	"url": "https://github.com/CristianCosta/extension-multiSocialFeatures",
+	"name": "extension-multigames",
+	"url": "https://github.com/CristianCosta/extension-multigames",
 	"license": "MIT",
-	"contributors":["CristianCosta","fbricker","singmajesty"],
+	"contributors":["CristianCosta","fbricker"],
 	"tags": ["social","features","lime","android","ios","amazon","games","openfl"],
-	"description": "OpenFL Social Features extension for Android, Kindle devices and iOS.",
+	"description": "OpenFL extension to manage multiple games services for Android, Kindle devices and iOS.",
+    "dependencies": {
+        "extension-googleplaygames": "",
+        "extension-gamecircle": "",
+        "extension-gamecenter": ""
+    },
 	"version": "1.0.0",
 	"releasenote": "Initial commit. Working!"
 }
