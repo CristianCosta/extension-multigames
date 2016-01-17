@@ -5,11 +5,11 @@
 	"contributors":["CristianCosta","fbricker"],
 	"tags": ["social","features","lime","android","ios","amazon","games","openfl"],
 	"description": "OpenFL extension to manage multiple games services for Android, Kindle devices and iOS.",
-    "dependencies": {
-        "extension-googleplaygames": "",
-        "extension-gamecircle": "",
-        "extension-gamecenter": ""
-    },
+	"dependencies": {
+		"extension-googleplaygames": "",
+		"extension-gamecircle": "",
+		"extension-gamecenter": ""
+	},
 	"version": "1.0.0",
 	"releasenote": "Initial commit. Working!"
 }
